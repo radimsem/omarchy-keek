@@ -66,10 +66,10 @@ To know where to go back to, the widget records each workspace that gains focus,
 
 ## Development
 
-The logic lives in `Model.js` and runs under node:
+The logic lives in `lib/Model.js` and runs under node:
 
 ```sh
-node tests/model.test.js
+node tests/js/model.test.js
 ```
 
 Check the manifest before publishing:

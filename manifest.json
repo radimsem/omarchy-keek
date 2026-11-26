@@ -9,7 +9,7 @@
     "bar-widget"
   ],
   "entryPoints": {
-    "barWidget": "KeekWidget.qml"
+    "barWidget": "ui/KeekWidget.qml"
   },
   "barWidget": {
     "displayName": "keek",

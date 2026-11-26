@@ -1,9 +1,9 @@
-// Run: node tests/model.test.js
+// Run: node tests/js/model.test.js
 const fs = require("fs")
 const path = require("path")
 const assert = require("assert")
 
-const src = fs.readFileSync(path.join(__dirname, "..", "Model.js"), "utf8").replace(/^\.pragma library\s*/, "")
+const src = fs.readFileSync(path.join(__dirname, "..", "..", "lib", "Model.js"), "utf8").replace(/^\.pragma library\s*/, "")
 const mod = { exports: {} }
 new Function("module", src)(mod)
 const M = mod.exports
