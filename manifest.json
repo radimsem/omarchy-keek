@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "radimsem.keek",
+  "name": "keek",
+  "version": "0.1.0",
+  "author": "Radim Semerak",
+  "description": "Shows keek's Agent Sessions in the bar and switches to the keek workspace and back",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "KeekWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "keek",
+    "description": "Agent Sessions, with a click to the keek workspace and back",
+    "category": "Compositor",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
