@@ -7,7 +7,7 @@ import Quickshell.Hyprland
 import qs.Commons
 import qs.Commons as Commons
 import qs.Ui
-import "Model.js" as Model
+import "../lib/Model.js" as Model
 
 BarWidget {
   id: root

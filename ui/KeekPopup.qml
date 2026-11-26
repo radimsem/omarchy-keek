@@ -4,7 +4,7 @@ import QtQuick
 import qs.Commons
 import qs.Commons as Commons
 import qs.Ui
-import "Model.js" as Model
+import "../lib/Model.js" as Model
 
 PopupCard {
   id: root
